@@ -47,10 +47,10 @@ Add.addEventListener('click',()=>{
     i1.setAttribute('class','fas fa-chevron-down');
     tbtn.appendChild(i2);
     i2.setAttribute('class','fas fa-times');
-
-
-    
-    tbtn.addEventListener('click',()=>{
+    i1.addEventListener('click',()=>{
+        Card.classList.add('active');
+    })
+    i2.addEventListener('click',()=>{
         Container.removeChild(Card);
     })
 })

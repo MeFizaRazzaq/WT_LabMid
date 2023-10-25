@@ -105,3 +105,35 @@ h1 {
 .faq.active .faq-toggle {
   background-color: #9fa4a8;
 }
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+    gap: 6px;
+}
+
+.form input{
+    border-top: 0px ;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 2px solid #3498db;
+    background-color: transparent;
+    padding: 2px 2px 1px 4px;
+}
+
+.form button{
+    width: 50%;
+    align-self: center;
+    background-color: #9fa4a8;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.form button:hover{
+    box-shadow: 3px 3px 4px #3498db52;
+}
+
+.form button:active{
+    background-color: #2ecc71;
+}

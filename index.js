@@ -16,7 +16,11 @@ Add.addEventListener('click',()=>{
     const QUES=document.getElementById("Ques").value;
     const ANS=document.getElementById("Ans").value;
     //console.log(Ques);
-    const Card=document.createElement('div');
+    if(QUES=="" && ANS==""){
+        window.alert("Fields are empty");
+    }
+    else{
+        const Card=document.createElement('div');
     Container.appendChild(Card);
     Card.setAttribute('class','faq');
     //question node
@@ -53,6 +57,7 @@ Add.addEventListener('click',()=>{
     i2.addEventListener('click',()=>{
         Container.removeChild(Card);
     })
+    }
 })
 
 

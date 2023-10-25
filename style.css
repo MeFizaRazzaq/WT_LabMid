@@ -122,6 +122,12 @@ h1 {
     padding: 2px 2px 1px 4px;
 }
 
+.form input:active{
+    border: none;
+    text-decoration: none;
+}
+
+
 .form button{
     width: 50%;
     align-self: center;
